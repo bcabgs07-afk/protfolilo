@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, red, gold, black);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid gold;
+    object-fit: cover;
+}
+
+header h1 {
+    margin-top: 15px;
+    font-size: 28px;
+    color: gold;
+}
+
+header p {
+    color: #ddd;
+}
+
+/* SECTION */
+section {
+    padding: 30px;
+    border-bottom: 1px solid #333;
+}
+
+h2 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: red;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* PROJECT CARD */
+.card {
+    background: #111;
+    padding: 15px;
+    border-left: 5px solid red;
+    margin-bottom: 15px;
+}
+
+/* CONTACT */
+.contact p {
+    margin: 5px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: gray;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="51rayl0HnRL.jpg" alt="Profile">
+    <h1>Ajay Kumar H N</h1>
+    <p>BCA Student | Aspiring Software Developer</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am currently pursuing BCA (2nd Semester) and passionate about web development.
+        I am looking for an internship opportunity at Infosys to enhance my skills in
+        software development and real-world applications.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>Frontend Development</span>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <p>Bachelor of Computer Applications (BCA)</p>
+    <p>Currently in 2nd Semester</p>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Library Management System</h3>
+        <p>Built using frontend and backend technologies to manage books and users.</p>
+    </div>
+
+    <div class="card">
+        <h3>Player Cards UI</h3>
+        <p>Designed dynamic UI cards using HTML and CSS.</p>
+    </div>
+
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>Phone: +91-8501920736</p>
+</section>
+
+<footer>
+    <p>© 2026 Ajay Kumar H N</p>
+</footer>
+
+</body>
+</html>
